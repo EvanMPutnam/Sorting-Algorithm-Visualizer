@@ -15,7 +15,7 @@ public class BubbleSort extends Sort {
     public void sort(Data data, int delayTime) throws InterruptedException {
         int i;
         int j;
-        for(i = 0; i < data.getSize(); i++) {
+        for (i = 0; i < data.getSize(); i++) {
             for (j = 0; j < data.getSize() - i - 1; j++) {
                 Line l1 = data.getAtIndex(j);
                 Line l2 = data.getAtIndex(j + 1);
